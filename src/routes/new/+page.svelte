@@ -25,7 +25,7 @@
 </script>
 
 <main class="flex-col items-center gap-5">
-	<div class="flex-col max-w-sm w-full gap-5">
+	<div class="flex-col max-w-xs w-full gap-5">
 		{#if clubs}
 			<FormLabel label="Club">
 				<select bind:value={selectedClubId} class="input">

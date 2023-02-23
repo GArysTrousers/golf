@@ -6,7 +6,7 @@
   export let href:string
 </script>
 
-<a {href} class="text-center flex-center flex-col w-32 border-4 rounded-2xl aspect-square">
+<a {href} class="text-center flex-center flex-col w-full border-4 rounded-2xl aspect-square">
   <Fa class="text-5xl" {icon}/>
   <div>{text}</div>
 </a>

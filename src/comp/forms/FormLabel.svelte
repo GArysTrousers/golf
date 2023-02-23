@@ -9,8 +9,8 @@
   export let width: string = "w-full"
 </script>
 
-<div class={`flex-col ${width}`}>
-	<div class={`text-sm ${positions[pos]}`}>{label}</div>
+<div class={`flex-col gap-2 ${width}`}>
+	<div class={`text-lg ${positions[pos]}`}>{label}</div>
 	<slot />
 </div>
 
