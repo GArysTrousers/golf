@@ -41,3 +41,13 @@ body {
 hr {
   @apply border-2 w-full;
 }
+
+.table {
+  @apply border-2;
+}
+
+.table td,
+.table th {
+  font-family: Pacifico, cursive;
+  @apply text-center border-2 text-lg;
+}

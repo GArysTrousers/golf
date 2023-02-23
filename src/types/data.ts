@@ -16,4 +16,5 @@ export interface Score {
   user:string;
   course:string;
   strokes: number[];
+  created:string;
 }

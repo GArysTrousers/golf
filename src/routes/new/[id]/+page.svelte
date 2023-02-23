@@ -98,15 +98,10 @@
 </main>
 
 <style>
-	.table {
-		@apply border-2;
-	}
 
-	.table td,
-	.table th {
-		font-family: Pacifico, cursive;
-		@apply text-center border-2 w-1/4 text-lg;
-	}
+  .table th, .table tr {
+    @apply w-1/4;
+  }
 
 	input[type='number'] {
 		@apply w-20 bg-black text-white text-center;
