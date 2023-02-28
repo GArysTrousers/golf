@@ -1,6 +1,7 @@
 export interface Club {
   id:string;
   name:string;
+  shortname:string;
 }
 
 export interface Course {

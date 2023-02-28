@@ -89,19 +89,6 @@
       "system": false,
       "schema": [
           {
-              "id": "an0hezrj",
-              "name": "name",
-              "type": "text",
-              "system": false,
-              "required": false,
-              "unique": false,
-              "options": {
-                  "min": null,
-                  "max": null,
-                  "pattern": ""
-              }
-          },
-          {
               "id": "nktwzyy0",
               "name": "club",
               "type": "relation",
@@ -190,7 +177,7 @@
       ],
       "listRule": "",
       "viewRule": "",
-      "createRule": null,
+      "createRule": "user.id = @request.auth.id",
       "updateRule": null,
       "deleteRule": null,
       "options": {}

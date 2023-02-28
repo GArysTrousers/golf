@@ -1,7 +1,5 @@
 <script lang="ts">
 	import type { Course, Score } from '$types/data';
-	import { faCircle, faDotCircle } from '@fortawesome/free-solid-svg-icons';
-	import Fa from 'svelte-fa/src/fa.svelte';
 
 	export let course: Course;
 	export let scores: Score[];

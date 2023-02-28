@@ -54,7 +54,7 @@
 		{#if course}
 			<div class="text-center">
 				<h1 class="h text-3xl">{course.expand.club.name}</h1>
-				<h2 class="h text-2xl">{course.name}</h2>
+				<h2 class="h text-2xl">Course {course.courseNumber}</h2>
 			</div>
 
 			<table class="table">
