@@ -73,6 +73,19 @@
                   "max": null,
                   "pattern": ""
               }
+          },
+          {
+              "id": "g0osse81",
+              "name": "shortname",
+              "type": "text",
+              "system": false,
+              "required": false,
+              "unique": false,
+              "options": {
+                  "min": null,
+                  "max": null,
+                  "pattern": ""
+              }
           }
       ],
       "listRule": "",
