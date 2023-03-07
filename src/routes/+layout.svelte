@@ -12,17 +12,18 @@
 </script>
 
 {#if $user}
-	<div class="flex-col items-center py-5">
-		<div class="flex-row justify-between items-center max-w-xs w-full">
-			<a class="h text-4xl mb-5" href="/">Golf.</a>
-			<button on:click={() => (showMenu = true)} class="btn-style w-10 h-10">
-				<Fa icon={faBars} class="text-2xl" />
-			</button>
+	<div class="m-3">
+		<div class="flex-col items-center py-5">
+			<div class="flex-row justify-between items-center max-w-xs w-full">
+				<a class="h text-4xl mb-5" href="/">Golf.</a>
+				<button on:click={() => (showMenu = true)} class="btn-style w-10 h-10">
+					<Fa icon={faBars} class="text-2xl" />
+				</button>
+			</div>
 		</div>
+
+		<slot />
 	</div>
-
-	<slot />
-
 	<Modal bind:show={showMenu}>
 		<div class="flex-col gap-3">
 			<div class="">Signed in as {$user.username}</div>
